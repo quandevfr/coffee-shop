@@ -1,32 +1,30 @@
+@import 'src/scss/_variables.scss';
+
 #productCard {
-  background-color: #fff;
-  max-width: 285px;
+  background-color: #ffffff;
 
   .productContent {
-    margin-top: 24px;
+    margin-top: $mb-1-5;
     text-align: left;
     width: 100%;
   }
   .productName {
-    margin-bottom: 4px;
-    color: #56524e;
-    font-size: 18px;
+    margin-bottom: $mb-0-5;
+    color: $text-color;
+    font-size: $h3-font-size;
     line-height: 100%;
-    font-weight: 600;
+    font-weight: $font-medium;
   }
 
   .productDesc {
-    color: #56524e;
-    font-size: 14px;
-    line-height: 100%;
-    font-weight: 400;
+    color: $text-color-light;
+    font-size: $normal-font-size;
   }
 
   .productPrice {
-    margin-top: 13px;
-    color: #ea8025;
-    font-size: 18px;
-    line-height: 100%;
-    font-weight: 600;
+    margin-top: $mb-1;
+    color: $first-color;
+    font-size: $h3-font-size;
+    font-weight: $font-medium;
   }
 }
