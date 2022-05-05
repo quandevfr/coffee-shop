@@ -6,8 +6,8 @@ $primaryColor: #61dafb;
 $header-height: 3.5rem;
 
 // Colors
-$first-color: #EA8025;
-$first-color-alt: #c16514;
+$first-color: hsl(28, 82%, 53%);
+$first-color-alt: hsl(28, 82%, 48%);
 $title-color: hsl(355, 4%, 15%);
 $text-color: hsl(355, 4%, 35%);
 $text-color-light: hsl(355, 4%, 55%);
@@ -15,15 +15,15 @@ $body-color: #fff;
 $container-color: #fff;
 
 // Fonts
-$body-font: "Poppins", sans-serif;
+$body-font: "Open Sans", sans-serif;
 
-$biggest-font-size: 1.5rem;
-$h1-font-size: 1.5rem;
-$h2-font-size: 1.25rem;
-$h3-font-size: 1rem;
-$normal-font-size: 0.938rem;
-$small-font-size: 0.813rem;
-$smaller-font-size: 0.75rem;
+$biggest-font-size: 2rem; // 32px
+$h1-font-size: 1.5rem; // 24px
+$h2-font-size: 1.25rem; // 20px
+$h3-font-size: 1rem; // 16px
+$normal-font-size: 0.9375rem; // 15px
+$small-font-size: 0.8125rem; // 13px
+$smaller-font-size: 0.75rem; // 12px
 
 // Font weight
 $font-medium: 500;
@@ -42,12 +42,12 @@ $z-tooltip: 10;
 $z-fixed: 100;
 
 // Responsive typography
-@media screen and (min-width: 968px) {
-  $biggest-font-size: 2.5rem;
-  $h1-font-size: 2.25rem;
-  $h2-font-size: 1.5rem;
-  $h3-font-size: 1.25rem;
-  $normal-font-size: 1rem;
-  $small-font-size: 0.875rem;
-  $smaller-font-size: 0.813rem;
+@media screen and (min-width: 1200px) {
+  $biggest-font-size: 2.5rem; // 40px
+  $h1-font-size: 2.25rem; // 36px
+  $h2-font-size: 1.5rem; // 24px
+  $h3-font-size: 1.25rem; // 20px
+  $normal-font-size: 1rem; // 16px
+  $small-font-size: 0.875rem; // 14px
+  $smaller-font-size: 0.825rem; // 13px
 }

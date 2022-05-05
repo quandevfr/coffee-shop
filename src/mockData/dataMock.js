@@ -6,7 +6,7 @@ import img4 from 'src/assets/images/img_coffee_4.png';
 export const dataProduct = [
   {
     img: img1,
-    name: 'Cà phê sữa đá',
+    name: 'Bạc Sỉu Nóng',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
     price: '18.850 đ',
   },
@@ -18,19 +18,19 @@ export const dataProduct = [
   },
   {
     img: img3,
-    name: 'Cà phê sữa đá',
+    name: 'Cà phê đen nóng',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
     price: '18.850 đ',
   },
   {
     img: img4,
-    name: 'Cà phê sữa đá',
+    name: 'Bạc xỉu nóng',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
     price: '18.850 đ',
   },
   {
     img: img1,
-    name: 'Cà phê sữa đá',
+    name: 'Cà phê đen nóng',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
     price: '18.850 đ',
   },
@@ -42,13 +42,13 @@ export const dataProduct = [
   },
   {
     img: img3,
-    name: 'Cà phê sữa đá',
+    name: 'Cà phê sữa nóng',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
     price: '18.850 đ',
   },
   {
     img: img4,
-    name: 'Cà phê sữa đá',
+    name: 'Cà phê đen đá',
     desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
     price: '18.850 đ',
   },

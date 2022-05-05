@@ -1,38 +1,31 @@
+@import 'src/scss/_variables.scss';
+
 #outstandingCard {
-  position: relative;
+  // position: relative;
   background-color: #ffffff;
   border-radius: 8px;
   padding: 27px;
   text-align: left;
-  display: flex;
-  flex-direction: column;
-  height: 330px;
-
-  .outstandingContent {
-    margin-top: auto;
-  }
+  height: 420px;
 
   .outstandingImg {
-    max-width: 100%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(8%, -40%);
+    transform: translateY(-160px);
+  }
+
+  .outstandingContent {
+    transform: translateY(-160px);
   }
 
   .outstandingName {
     margin: 14px 0;
-    color: #56524e;
-    font-size: 18px;
-    line-height: 100%;
-    font-weight: 600;
+    color: $title-color;
+    font-size: $h3-font-size;
+    font-weight: $font-medium;
   }
 
   .outstandingDesc {
-    color: #56524e;
-    font-size: 14px;
-    line-height: 100%;
-    font-weight: 400;
+    color: $title-color;
+    font-size: $small-font-size;
+    color: $text-color-light;
   }
 }
