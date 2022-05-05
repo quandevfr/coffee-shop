@@ -1,0 +1,49 @@
+#defaultLayout {
+  .layoutBanner {
+    background-image: url('/assets/images/img_banner.png');
+    height: 350px;
+  }
+  .bodyWrap {
+    margin: auto;
+    max-width: 1920px;
+    width: 82%;
+  }
+
+  .layoutProduct {
+    margin-top: 67px;
+    text-align: center;
+  }
+  .bodyTitle {
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 600;
+    color: #56524e;
+    margin-bottom: 25px;
+  }
+  .bodySub_title {
+    line-height: 100%;
+    font-weight: 600;
+    color: #56524e;
+    font-size: 20px;
+  }
+  .listCard {
+    margin-top: 67px;
+  }
+
+  .layoutOutstanding {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #fff2d9;
+  }
+  .outstandingDesc {
+    max-width: 924px;
+    margin: 0 auto;
+  }
+  .outstandingList {
+    margin-top: 70px;
+  }
+
+  .layoutFooter {
+    margin-top: 30px;
+  }
+}

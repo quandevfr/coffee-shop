@@ -1,0 +1,30 @@
+#footer {
+  height: 56px;
+  background-color: #ea8025;
+
+  .footerWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1920px;
+    width: 82%;
+    height: 100%;
+  }
+  .copyRight,
+  .footerLink {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .social {
+    display: flex;
+    margin: 0 -13px;
+  }
+  .footerLink {
+    margin: 0 13px;
+  }
+}
