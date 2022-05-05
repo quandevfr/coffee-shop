@@ -1,7 +1,15 @@
-import logo from './logo.svg';
+import { Route } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
+import DefaultLayout from './layouts/default';
 
 function App() {
-  return <div className='App'>hello</div>;
+  return (
+    <Switch>
+      <Route path='/'>
+        <DefaultLayout />
+      </Route>
+    </Switch>
+  );
 }
 
 export default App;
