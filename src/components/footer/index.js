@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import './style.scss';
 
@@ -9,12 +8,12 @@ const Footer = () => {
       <div className='footerWrap'>
         <div className='copyRight'>Coffee Shop ® 2022 All rights reserved</div>
         <div className='social'>
-          <Link target='_blank' to={`https://www.instagram.com/`} className='footerLink'>
+          <a target='_blank' rel='noreferrer' href={`https://www.instagram.com/`} className='footerLink'>
             Instagram
-          </Link>
-          <Link target='_blank' to={`https://www.facebook.com/`} className='footerLink'>
+          </a>
+          <a target='_blank' rel='noreferrer' href={`https://www.facebook.com/`} className='footerLink'>
             Facebook
-          </Link>
+          </a>
         </div>
       </div>
     </div>
