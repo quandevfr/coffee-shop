@@ -1,0 +1,32 @@
+#productCard {
+  background-color: #fff;
+  max-width: 285px;
+
+  .productContent {
+    margin-top: 24px;
+    text-align: left;
+    width: 100%;
+  }
+  .productName {
+    margin-bottom: 4px;
+    color: #56524e;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 600;
+  }
+
+  .productDesc {
+    color: #56524e;
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 400;
+  }
+
+  .productPrice {
+    margin-top: 13px;
+    color: #ea8025;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 600;
+  }
+}

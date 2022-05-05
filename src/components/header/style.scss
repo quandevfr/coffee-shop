@@ -1,0 +1,45 @@
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 18%);
+    width: 100%;
+    height: 56px;
+    background: #ffffff;
+
+    .headerWrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        max-width: 1920px;
+        width: 82%;
+        height: 100%;
+    }
+    .logo{
+        text-transform: uppercase;
+        color: rgba(234, 128, 37, 1);
+        font-size: 18px;
+        line-height: 100%;
+        font-weight: 600;
+    }
+    .menu{
+        display: flex;
+        margin: 0 -22px;
+    }
+    .menuLink{
+        color: #56524E;
+        font-size: 16px;
+        line-height: 100%;
+        font-weight: 600;
+        margin: 0 22px;
+        text-decoration: none;
+    }
+    .sign{
+        color: rgba(234, 128, 37, 1);
+        font-size: 18px;
+        line-height: 100%;
+        font-weight: 600;
+    }
+}
