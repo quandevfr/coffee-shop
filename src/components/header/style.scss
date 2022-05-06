@@ -47,19 +47,14 @@
     }
 
     .sign {
-        background-color: $first-color;
-        // color: $first-color;
-        color: $body-color;
-        padding: .6rem 1.2rem;
-        border-radius: .25rem;
+        color: $first-color;
         font-size: $normal-font-size;
-        line-height: 100%;
-        font-weight: 600;
+        font-weight: $font-medium;
         cursor: pointer;
         transition: all .3s ease;
     }
 
     .sign:hover {
-        background-color: $first-color-alt;
+        color: $first-color-alt;
     }
 }

@@ -1,0 +1,82 @@
+@import 'src/scss/_variables.scss';
+
+.productLayout {
+
+  .productsPage {
+    padding-top: $mb-2-5;
+  }
+
+  .bodyTitle {
+    text-align: center;
+  }
+
+  .layoutBanner {
+    height: 350px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  .layoutBanner img {
+    object-fit: cover;
+    border-radius: .5rem;
+    height: 100%;
+  }
+
+  .bodyWrap {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .layoutProduct {
+    margin-top: 67px;
+    text-align: center;
+  }
+  .bodyTitle {
+    font-size: $h1-font-size;
+    font-weight: $font-medium;
+    color: $title-color;
+    margin-bottom: $mb-1;
+  }
+  .bodySub_title {
+    color: $text-color-light;
+    font-size: $normal-font-size;
+    // margin-bottom: $mb-2-5;
+    max-width: 60%;
+    text-align: center;
+    margin: 0 auto $mb-2-5;
+  }
+  .listCard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+    row-gap: 2rem;
+    padding-bottom: 40px;
+  }
+
+  .layoutOutstanding {
+    padding-top: 50px;
+    padding-bottom: 102px;
+    text-align: center;
+    background-color: #fff2d9;
+  }
+  .outstandingDesc {
+    max-width: 60%;
+    margin: 0 auto;
+    color: $text-color-light;
+    line-height: 1.5rem;
+    font-size: $normal-font-size;
+    // font-weight: $font-medium;
+  }
+  .outstandingList {
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .layoutFooter {
+    margin-top: 50px;
+  }
+}
+

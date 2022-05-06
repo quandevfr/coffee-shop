@@ -9,20 +9,22 @@ const Header = () => {
       <div className='headerWrap'>
         <div className='logo'>Coffee shop</div>
         <div className='menu'>
-          <Link to={`/`} className='menuLink'>
+          <Link to='/' className='menuLink'>
             Trang Chủ
           </Link>
-          <Link to={`#products`} className='menuLink'>
+          <Link to='/products' className='menuLink'>
             Sản Phẩm
           </Link>
-          <Link to={`#products`} className='menuLink'>
+          <Link to='/abouts' className='menuLink'>
             Giới Thiệu
           </Link>
-          <Link to={`#products`} className='menuLink'>
+          <Link to='/contact' className='menuLink'>
             Liên Hệ
           </Link>
         </div>
-        <div className='sign'>Đăng nhập</div>
+        <Link to='/signin'>
+          <div className='sign'>Đăng nhập</div>
+        </Link>
       </div>
     </div>
   );
